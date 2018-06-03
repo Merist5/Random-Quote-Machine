@@ -4,7 +4,7 @@ var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&fi
 
 $(document).ready(function() {
   getQuote();
-  $('.trigger').click(function() {
+  $('.trigger').on('click', function() {
     getQuote();
   })
 });
@@ -15,6 +15,7 @@ function getQuote() {
 }
 
 function createTweet(input) {
+  Array.isArray(input);
   var data = input[0];
 
   var quoteText = $(data.content).text().trim();
