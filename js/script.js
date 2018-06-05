@@ -16,7 +16,7 @@ function getQuote() {
 
 function createTweet(input) {
   if (!Array.isArray(input) || !input.length) {
-   return;
+    return;
   }
   var data = input[0];
 
