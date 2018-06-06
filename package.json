@@ -1,5 +1,5 @@
 {
-  "name": "Random-Quote-Machine",
+  "name": "Country-Search-Engine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Merist5/Random-Quote-Machine.git"
+    "url": "git+https://github.com/Merist5/Country-Search-Engine.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Merist5/Random-Quote-Machine/issues"
+    "url": "https://github.com/Merist5/Country-Search-Engine/issues"
   },
-  "homepage": "https://github.com/Merist5/Random-Quote-Machine#readme",
+  "homepage": "https://github.com/Merist5/Country-Search-Engine#readme",
   "devDependencies": {
   "autoprefixer-cli": "^1.0.0",
   "browser-sync": "^2.23.6",
